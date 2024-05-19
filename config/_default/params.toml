@@ -53,7 +53,7 @@ showAuthorsBadges = false
 showWordCount = false
 showZenMode = false
 heroStyle = "basic"
-showcomments = true
+showComments = true
 
 [list]
 showHero = false
