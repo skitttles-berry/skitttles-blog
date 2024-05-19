@@ -1,13 +1,13 @@
 languageCode = "ko"
 languageName = "Korean"
 weight = 1
-title = "🐱‍💻skitttles.berry"
+title = "🍭skitttles.berry"
 
 [params]
   displayName = "KO"
   isoCode = "ko"
   rtl = false
-  dateFormat = "2006 January 2"
+  dateFormat = "2006.01.02"
   # logo = "profile.png"
   secondaryLogo = "profile.png"
   description = "Security & Development"
