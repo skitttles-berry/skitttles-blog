@@ -14,9 +14,9 @@ title = "skitttles-blog"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
-   name = "skitttles"
+   name = "ruff"
 #   image = "profile.png"
-#   headline = "Learn IT Security"
+   headline = "A computer security engineer 👨‍💻 who likes body building 💪"
 #   bio = "A little bit about you"
   links = [
 #     { email = "mailto:hello@your_domain.com" },
