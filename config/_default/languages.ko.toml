@@ -16,7 +16,7 @@ title = "skitttles-blog"
 [author]
    name = "ruff"
 #   image = "profile.png"
-   headline = "A computer security engineer 👨‍💻 who likes body building 💪"
+   headline = "A computer security engineer who likes body building."
 #   bio = "A little bit about you"
   links = [
 #     { email = "mailto:hello@your_domain.com" },
