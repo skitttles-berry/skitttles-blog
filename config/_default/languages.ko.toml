@@ -1,7 +1,7 @@
 languageCode = "ko"
 languageName = "Korean"
 weight = 1
-title = "skitttles-blog"
+title = "skitttles"
 
 [params]
   displayName = "KO"
@@ -10,13 +10,13 @@ title = "skitttles-blog"
   dateFormat = "2006.01.02"
   # logo = "profile.png"
   secondaryLogo = "profile.png"
-  description = "Security & Development"
+  description = "Computer Security & Development"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
-   name = "Ruff"
+   name = "skittt"
 #   image = "profile.png"
-   headline = "Computer Security Engineer Loves Bodybuilding."
+   headline = "👾👾👾"
 #   bio = "A little bit about you"
   links = [
 #     { email = "mailto:hello@your_domain.com" },
