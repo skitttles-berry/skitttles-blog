@@ -8,14 +8,14 @@ title = "skitttles"
   isoCode = "ko"
   rtl = false
   dateFormat = "2006.01.02"
-  # logo = "profile.png"
-  secondaryLogo = "profile.png"
-  description = "Computer Security & Development"
+  # logo = "logo.png"
+  # secondaryLogo = "profile.png"
+  description = "IT Security & Development"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
    name = "Ruff"
-#   image = "profile.png"
+   image = "profile.png"
 #   headline = ""
 #   bio = "A little bit about you"
   links = [
