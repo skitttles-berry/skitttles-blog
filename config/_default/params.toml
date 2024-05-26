@@ -3,7 +3,7 @@ defaultAppearance = "dark"
 autoSwitchAppearance = false
 enableSearch = true
 enableCodeCopy = true
-disableImageOptimization = false
+disableImageOptimization = true
 disableTextInHeader = false
 defaultFeaturedImage = ""
 mainSections = "posts"
@@ -25,7 +25,7 @@ showRecentItems = 10
 showMoreLink = true
 showMoreLinkDest = "/posts"
 cardView = false
-cardViewScreenWidth = false
+cardViewScreenWidth = ""
 layoutBackgroundBlur = true
 
 [article]
@@ -48,11 +48,11 @@ showPagination = true
 invertPagination = false
 showReadingTime = false
 showTableOfContents = true
-showTaxonomies = false
+showTaxonomies = true
 showAuthorsBadges = false
 showWordCount = false
 showZenMode = false
-heroStyle = "basic"
+heroStyle = "big"
 showComments = true
 
 [list]
