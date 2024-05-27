@@ -3,7 +3,7 @@ title: "HTTP request smuggling 개념 정리 및 실제 공격"
 date: 2022-04-25
 draft: false
 description: "HTTP request smuggling 개념 정리 및 실제 공격"
-tags: ["security", "web", "smuggling"]
+tags: ["web", "smuggling"]
 categories: ["security"]
 ---
 ![process](featured.png)
@@ -45,8 +45,7 @@ v=smuggling
 
 ```
 > - 요청에서 ‘chunked’ 인코딩을 사용하는 것을 거의 볼 수 없었던 이유는, 브라우저에서는 보통 요청에서 ‘chunked’ 인코딩을 사용하지 않으며 응답에서 주로 사용되기 때문입니다.
-- Burp Suite에서는 Content-Length를 자동으로 계산하여 수정하므로 해당 기능을 꺼야 공격을 수행할 수 있습니다.
-> 
+> - Burp Suite에서는 Content-Length를 자동으로 계산하여 수정하므로 해당 기능을 꺼야 공격을 수행할 수 있습니다.
 
 # 📌 02. 기본 공격 방법
 
@@ -172,8 +171,8 @@ q=smuggling
 ```
 
 > - "공격" 요청과 "정상" 요청은 서로 다른 네트워크 연결을 사용하여 서버로 보내야 합니다. 동일한 연결을 통해 두 요청을 모두 보내는 것은 취약점이 존재한다는 것을 증명하지 않습니다.
-- "공격" 요청과 "일반" 요청은 가능한 한 동일한 URL 및 매개변수 이름을 사용해야 합니다. 이는 많은 최신 애플리케이션이 URL 및 매개변수를 기반으로 Front-end 요청을 다른 Back-end 서버로 라우팅하기 때문입니다. 동일한 URL과 매개변수를 사용하면 공격이 작동하는 데 필수적인 동일한 Back-end 서버에서 요청을 처리할 가능성이 높아집니다.
-> 
+> - "공격" 요청과 "일반" 요청은 가능한 한 동일한 URL 및 매개변수 이름을 사용해야 합니다. 이는 많은 최신 애플리케이션이 URL 및 매개변수를 기반으로 Front-end 요청을 다른 Back-end 서버로 라우팅하기 때문입니다. 동일한 URL과 매개변수를 사용하면 공격이 작동하는 데 필수적인 동일한 Back-end 서버에서 요청을 처리할 가능성이 높아집니다.
+
 
 ### CL.TE 취약점
 
@@ -236,6 +235,7 @@ x=
 
 Front-end 서버에서 chunked 인코딩에 의해 /404 페이지 요청이 Back-end로 전달되고 Content-Length 가 144 이므로 해당 크기 만큼의 데이터가 올 때까지 대기하게 됩니다. 이후 다른 네트워크 상에서 메인 페이지(/) 접속 요청 시 대기 중이던 패킷에 결합되어 404 에러 페이지가 출력 됩니다.
 ![TE-CL smuggling](5.png)
+
 
 # 📌 04. HTTP request smuggling 활용
 
@@ -446,6 +446,7 @@ HTTP/1.1 200 Ok
 
 1. End to end HTTP/2를 사용하고 가능하면 HTTP 다운그레이드를 비활성화합니다. HTTP/2는 요청 길이를 결정하기 위해 강력한 메커니즘을 사용하며 종단 간 사용 시 본질적으로 HTTP Smuggling 으로부터 보호됩니다.
 2. HTTP 다운그레이드를 피할 수 없는 경우 HTTP/1.1 요청의 유효성을 검사해야 합니다. 예를 들어 헤더에 줄 바꿈, 헤더 이름의 콜론, 요청 메서드에 공백이 포함된 요청을 거부합니다.
+
 
 # 📌 06 References
 
