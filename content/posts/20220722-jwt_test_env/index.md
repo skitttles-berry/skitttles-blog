@@ -6,6 +6,8 @@ description: "JWT (JSON Web Token) 취약점 실습 환경 구축"
 tags: ["web","jwt"]
 categories: ["security"]
 ---
+
+
 <img src=featured.png width=50% alt="thumbnail" style="display: block;margin: auto"/>
 
 JSON Web Token (이하 JWT) 취약점을 실습할 수 있는 환경을 구축해보고자 합니다.

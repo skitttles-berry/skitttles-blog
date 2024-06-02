@@ -6,6 +6,8 @@ description: "OAuth 2.0 알아보기"
 tags: ["web","oauth"]
 categories: ["security"]
 ---
+
+
 <img src=featured.png width=50% alt="thumbnail" style="display: block;margin: auto"/>
 
 [PortSwigger](https://portswigger.net/web-security/oauth/grant-types)의 글을 번역하였습니다 😀

@@ -6,6 +6,8 @@ description: "HTTP/2 Request Smuggling 활용"
 tags: ["web","smuggling"]
 categories: ["security"]
 ---
+
+
 ![featured](featured.png)
 PortSwigger의 [Advanced request smuggling](https://portswigger.net/web-security/request-smuggling/advanced)를 번역, 정리하였습니다.
 

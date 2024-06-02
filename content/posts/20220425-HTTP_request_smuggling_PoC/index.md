@@ -6,6 +6,8 @@ description: "HTTP request smuggling 개념 정리 및 실제 공격"
 tags: ["web", "smuggling"]
 categories: ["security"]
 ---
+
+
 ![process](featured.png)
 PortSwigger의 교육 자료를 번역하며 정리하였습니다 😁
 

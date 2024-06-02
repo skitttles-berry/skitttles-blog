@@ -6,10 +6,13 @@ description: "OAuth 취약점 알아보기"
 tags: ["web","oauth"]
 categories: ["security"]
 ---
+
+
 <img src=featured.png width=50% alt="thumbnail" style="display: block;margin: auto"/>
 
 
-PortSwigger의 [OAuth 2.0 authentication vulnerabilities]([https://portswigger.net/web-security/oauth](https://portswigger.net/web-security/oauth))를 번역/정리하였습니다 😊
+PortSwigger의 OAuth 2.0 authentication vulnerabilities를 번역/정리하였습니다 😊
+[OAuth 2.0 authentication vulnerabilities]([https://portswigger.net/web-security/oauth](https://portswigger.net/web-security/oauth))
 
 [지난 글 \(OAuth 2.0 알아보기\)]({{< ref "posts/20220904-oauth_concept/index.md" >}})을 통해서 OAuth에 대해서 알아보았습니다. 이번 글에서는 OAuth의 취약점을 살펴보고자 합니다.
 
