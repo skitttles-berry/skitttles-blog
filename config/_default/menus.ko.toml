@@ -13,11 +13,12 @@
 [[main]]
   name = "posts"
   pageRef = "posts"
+  # pre = "list"
   weight = 10
 
 [[main]]
-  name = "category"
-  pageRef = "categories"
+  name = "wiki"
+  pageRef = "wiki"
   # pre = "list"
   weight = 20
 
@@ -25,7 +26,7 @@
   identifier = "tags"
   pageRef = "tags"
   pre = "tag"
-  weight = 30
+  weight = 90
 
 [[main]]
   url = "https://github.com/skitttles-berry"
@@ -33,13 +34,13 @@
   weight = 100
 
 [[main]]
-  parent = "category"
+  parent = "posts"
   name = "security"
   pageRef = "categories/security"
   weight = 10
 
 [[main]]
-  parent = "category"
+  parent = "posts"
   name = "dev"
   pageRef = "categories/dev"
   weight = 20

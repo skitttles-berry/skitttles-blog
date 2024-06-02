@@ -8,7 +8,9 @@ categories: ["security"]
 ---
 ![featured](featured.png)
 PortSwigger의 [Advanced request smuggling](https://portswigger.net/web-security/request-smuggling/advanced)를 번역, 정리하였습니다.
-이전에 소개드린 [HTTP request smuggling](https://velog.io/@thelm3716/HTTP-request-smuggling)을 HTTP/2 환경에서 수행하는 방법을 알아보겠습니다.
+
+이전에 소개드린 [HTTP request smuggling]({{< ref "posts/20220425-HTTP_request_smuggling_PoC/index.md" >}})을 HTTP/2 환경에서 수행하는 방법을 알아보겠습니다.
+
 
 # 📌 01. 개요
 
