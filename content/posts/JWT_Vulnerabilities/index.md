@@ -13,7 +13,7 @@ categories: ["security"]
 
 JSON Web Token을 간단히 알아보고 발생할 수 있는 취약점들을 소개하고자 합니다.
 일부 취약점 Exploitation(실습)에서 사용한 환경은 아래와 같으며,
-자세한 내용은 [JSON Web Token - 취약점 실습 환경 구축]({{< ref "posts/20220722-jwt_test_env/index.md" >}})에서 확인하실 수 있습니다.
+자세한 내용은 [JSON Web Token - 취약점 실습 환경 구축]({{< ref "posts/JWT_test_env/index.md" >}})에서 확인하실 수 있습니다.
 
 > - 취약한 서버 : [jwt-hacking-challenges](https://github.com/onsecru/jwt-hacking-challenges)
 > - 공격 도구 : [PostMan](https://web.postman.com/), [jwt_tool](https://github.com/ticarpi/jwt_tool), python3

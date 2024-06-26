@@ -73,4 +73,4 @@ $ sudo node app.js
 **✔ Step 5)** [JWT_Tool](https://github.com/ticarpi/jwt_tool) 또한 공격 환경에 준비해 놓습니다. JWT 관련 취약점 공격 시에 유용하게 사용됩니다.
 
 # 💥 03. 활용
-[JSON Web Token - 취약점 알아보기]({{< ref "posts/20220624-JWT_Vulnerabilities/index.md" >}}) 글에서 JWT의 각 취약점 Exploitation에서 사용합니다.
+[JSON Web Token - 취약점 알아보기]({{< ref "posts/JWT_Vulnerabilities/index.md" >}}) 글에서 JWT의 각 취약점 Exploitation에서 사용합니다.
